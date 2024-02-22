@@ -1,0 +1,31 @@
+<h1>Java Programs</h1>
+
+<ul id="fileList">
+    <li><button onclick="downloadFile('./prog1/StackOperations.java')">Prog1</button></li>
+    <li><button onclick="downloadFile('./prog2/QuadraticEquation.java')">Prog2</button></li>
+    <li><button onclick="downloadFile('./prog3/StudentResult.java')">Prog3</button></li>
+    <li><button onclick="downloadFile('./prog4/QueueOperations.java')">Prog4a</button></li>
+    <li><button onclick="downloadFile('./prog4/Division.java')">Prog4b</button></li>
+    <li><button onclick="downloadFile('./prog5/StringOperations.java')">Prog5</button></li>
+    <li><button onclick="downloadFile('./prog6/MatrixMultiplication.java')">Prog6</button></li>
+    <li><button onclick="downloadFile('./prog7/WordFrequencyCounter.java')">Prog7a</button></li>
+    <li><button onclick="downloadFile('./prog7/BubbleSort.java')">Prog7b</button></li>
+    <li><button onclick="downloadFile('./prog8/Complex.java')">Prog8</button></li>
+    <li><button onclick="downloadFile('./prog9/Poly.java')">Prog9</button></li>
+    <li><button onclick="downloadFile('./prog10/Main.java')">Prog10</button></li>
+    <li><button onclick="downloadFile('./prog11/BinarySearch.java')">Prog11</button></li>
+    <li><button onclick="downloadFile('./prog12/TextDisplayApplet.java')">Prog12 JAVA</button></li>
+    <li><button onclick="downloadFile('./prog12/TextDisplayApplet.html')">Prog12 HTML</button></li>
+    <li><button onclick="downloadFile('./prog13/Interface.java')">Prog13</button></li>
+    <li><button onclick="downloadFile('./prog14/FactorialCalculatorApplet.java')">Prog14 JAVA</button></li>
+    <li><button onclick="downloadFile('./prog14/FactorialCalculatorApplet.html')">Prog14 HTML</button></li>
+</ul>
+
+<script>
+function downloadFile(filename) {
+    const anchor = document.createElement('a');
+    anchor.href = filename;
+    anchor.download = filename;
+    anchor.click();
+}
+</script>
